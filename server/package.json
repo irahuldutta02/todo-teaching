@@ -1,0 +1,19 @@
+{
+  "name": "todo-teaching-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "github.com/@irahuldutta02",
+  "license": "ISC",
+  "description": "This is a simple todo app for teaching mern stack",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.9"
+  }
+}
