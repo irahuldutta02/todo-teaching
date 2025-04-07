@@ -19,7 +19,7 @@ taskRoutes.put("/task_update/:id", updatedTask);
 // POST: /api/tasks/task_create ✅
 taskRoutes.post("/task_create", createTask);
 
-// DELETE: /api/tasks/task_delete
-taskRoutes.delete("/task_delete", deleteTask);
+// DELETE: /api/tasks/task_delete ✅
+taskRoutes.delete("/task_delete/:id", deleteTask);
 
 export default taskRoutes;
