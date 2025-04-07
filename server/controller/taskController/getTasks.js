@@ -10,7 +10,7 @@ export const getTasks = async (req, res) => {
     if (!AllTask) {
       return res.status(400).json({
         status: 400,
-        error: false,
+        error: true,
         message: "No task found",
       });
     }
