@@ -1,13 +1,13 @@
 import express from "express";
 import { createTask } from "../controller/taskController/createTask.js";
-import { showTask } from "../controller/taskController/showTask.js";
+import { getTasks } from "../controller/taskController/getTasks.js";
 import { updatedTask } from "../controller/taskController/updatedTask.js";
 import { deleteTask } from "../controller/taskController/deleteTask.js";
 
 const taskRoutes = express.Router();
 
-// GET: /api/tasks/task_get
-taskRoutes.get("/task_get", showTask);
+// GET: /api/tasks/tasks_get
+taskRoutes.get("/tasks_get", getTasks);
 
 // POST: /api/tasks/task_create
 taskRoutes.post("/task_create", createTask);

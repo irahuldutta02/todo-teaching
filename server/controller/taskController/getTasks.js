@@ -1,15 +1,21 @@
 import { Task } from "../../model/task.model.js";
 
-export const showTask = async (req, res) => {
+export const getTasks = async (req, res) => {
   try {
-    const AllTask = await Task.find();
+    // getting all tasks from the database
+    // sort by createdAt in descending order
+    const AllTask = await Task.find({}).sort({ createdAt: -1 });
+
+    // handing error: if no task found
     if (!AllTask) {
-      return res.status(200).json({
-        status: 200,
+      return res.status(400).json({
+        status: 400,
         error: false,
-        message: "No Task Yet",
+        message: "No task found",
       });
     }
+
+    // sending response to the client
     return res.status(200).json({
       status: 200,
       error: false,
