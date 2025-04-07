@@ -1,3 +1,11 @@
+## Watch
+
+### 1. Youtube
+
+- [Chai aur Javascript](https://www.youtube.com/playlist?list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37)
+
+## Read
+
 ### 1. What is the difference between get, post, put, and delete, patch methods in RESTful APIs?
 
 - GET: Retrieve data from the server.
