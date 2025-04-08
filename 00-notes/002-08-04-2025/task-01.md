@@ -8,7 +8,7 @@
   - [x] `GET /contacts/:id` - Get a contact by ID
   - [x] `POST /contacts` - Create a new contact
   - [] `PUT /contacts/:id` - Update a contact by ID
-  - [] `DELETE /contacts/:id` - Delete a contact by ID
+  - [x] `DELETE /contacts/:id` - Delete a contact by ID
   - [] `GET /contacts/search` - Search contacts by search term (name, email, phone, address) (query parameter) [return all contacts that match the search term eg: `/contacts/search?search=John` / eg: `/contacts/search?search=johon@gmail.com`]
 
 - Contact model should have the following fields:
