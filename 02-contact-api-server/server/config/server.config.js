@@ -3,5 +3,7 @@ dotenv.config({
   path: "./.env",
 });
 
+//port
 export const PORT = process.env.PORT || 5000;
-export const DB_URI = process.env.DB_URI
+//database url
+export const DB_URI = process.env.DB_URI;

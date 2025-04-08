@@ -6,6 +6,7 @@ export const dbConnect = async () => {
     const conn = await mongoose.connect(DB_URI);
     console.log(`MongoDB Connected: ${conn.connection.host}`);
   } catch (error) {
+    //Error Handel
     console.error(`Error: ${error.message}`);
     process.exit(1);
   }
