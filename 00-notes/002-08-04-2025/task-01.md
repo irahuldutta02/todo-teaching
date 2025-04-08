@@ -4,7 +4,7 @@
 
 - [] Create a contact API with the following endpoints:
 
-  - [] `GET /contacts` - Get all contacts
+  - [x] `GET /contacts` - Get all contacts
   - [] `GET /contacts/:id` - Get a contact by ID
   - [x] `POST /contacts` - Create a new contact
   - [] `PUT /contacts/:id` - Update a contact by ID
